@@ -1,4 +1,4 @@
-# University of Rochester TiKz Logos
+# University of Rochester TikZLogos
 
 University of Rochester logos in TikZ for inclusion in LaTeX, especially Beamer presentations.
 
@@ -18,5 +18,11 @@ To use in LaTeX add the following line to the header,
 and the following line to import the image,
 
 ```latex
-\input{UR_4col_v1.pgf}
+\input{UR_4col_v1.tex}
 ```
+
+See **example.tex** for, well, an example.
+
+Unfortunately, the only way I know how to change the size of the
+graphics is to edit the .tex file containing the image and change the
+`scale` option of the `tikzpicture` environment.
